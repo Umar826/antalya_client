@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-image: url("C:\Users\progr\Documents\AntalyaChanger\client\public\img\simple_shiny_1.png");
+    background-color: #202020;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1920px;
+}
+
+header {
+    background-color: transparent; 
+    max-width: 100%;
+}
+
+.header_div {
+    width: 70%;
+    display: flex;
+    padding: 45px 0;
+    text-decoration: none;
+    margin: 0 auto;
+    gap: 3rem;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Lemon', cursive;
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.logo_yellow {
+    color: orange;
+}
+
+.btn_item {
+    text-decoration: none;
+    color: #CFCFCF;
+    font-size: 22px;
+}
+
+.shield {
+    color: orange;
+}
+
+.all_change {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    size: 25px;
+    color: #CFCFCF;
+    width: 70%;
+}
+
+.footer_main {
+    display: flex;
+    gap: 3rem;
+    width: 70%;
+    max-width: 1050px;
+    display: flex;
+    background-color: #27282B;
+    border-radius: 15px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.footer_help {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.help_text {
+    color: #CFCFCF;
+}
+
+@media (max-width: 1000px) {
+    .header_div {
+        gap: 1rem;
+        font-size: 20px;
+    }
+    .logo {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_div {
+        display: grid;
+        gap: 0.5rem;
+    }
+    .footer_main {
+        display: grid;
+        gap: 0.5rem;
+    }
+}

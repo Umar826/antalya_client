@@ -1,0 +1,33 @@
+.conteinerNal {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #27282B;
+    border-radius: 25px;
+    padding-left: 25px;
+}
+
+.orangeNal {
+    color: orange;
+    font-size: 26px;
+}
+
+.Sotr {
+    font-size: 20px;
+    color: #CFCFCF;
+}
+
+.TerraCiti {
+    font-family: 'Lemon', cursive;
+    font-size: 24px;
+    color: orange;
+}
+
+.TerraWhite {
+    color: white;
+}
+
+.whiteTG {
+    color: rgb(236, 187, 52);
+    text-decoration-color: orange;
+}
