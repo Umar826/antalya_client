@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    background-image: url("C:\Users\progr\Documents\AntalyaChanger\client\public\img\simple_shiny_1.png");
+    background-image: url("../../public/img/simple_shiny_1.png");
     background-color: #202020;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
